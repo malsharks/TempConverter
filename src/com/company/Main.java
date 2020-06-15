@@ -40,25 +40,25 @@ public class Main {
                     System.out.println("What number do you want to convert to from Fahrenheit to Celsius?");
                     fahrenheit = scan.nextDouble();
                     celsius = ((fahrenheit - 32) * 5.0/9.0);
-                    System.out.println(celsius + "Degrees is equal to"+ fahrenheit + "degrees fahrenheit");
+                    System.out.println(fahrenheit + "Degrees is equal to"+ fahrenheit + "degrees fahrenheit");
                     break;
                 case 4:
                     System.out.println("What number do you want to convert from Fahrenheit to Kelvin?");
                     fahrenheit = scan.nextDouble();
                     kelvin = ((fahrenheit- 32)* 5.0/9.0 + 273.15);
-                    System.out.println(celsius + "Degrees is equal to"+ fahrenheit + "degrees fahrenheit");
+                    System.out.println(fahrenheit + "Degrees is equal to"+ fahrenheit + "degrees fahrenheit");
                     break;
                 case 5:
                     System.out.println("What number do you want to convert from Kelvin to Celsius?");
                     kelvin = scan.nextDouble();
                     fahrenheit = (kelvin - 273.15*(9.0/5.0)+32);
-                    System.out.println(celsius + "Degrees is equal to"+ fahrenheit + "degrees fahrenheit");
+                    System.out.println(kelvin + "Degrees is equal to"+ fahrenheit + "degrees fahrenheit");
                     break;
                 case 6:
                     System.out.println("What number do you want to convert from Kelvin to Celsius?");
                     kelvin = scan.nextDouble();
                     celsius = (kelvin - 273.15);
-                    System.out.println(celsius + "Degrees is equal to"+ fahrenheit + "degrees fahrenheit");
+                    System.out.println(kelvin + "Degrees is equal to"+ fahrenheit + "degrees fahrenheit");
                     break;
 
 
